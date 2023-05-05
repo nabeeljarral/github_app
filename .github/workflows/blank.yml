@@ -11,12 +11,6 @@ on:
     branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
-  on:
-   workflow_dispatch:
-      inputs:
-        name:
-         description: 'You have to manually run it'
-         default: 'Nabeel'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
