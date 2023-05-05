@@ -28,9 +28,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Update App 
-        run: | 
-              sudo apt update
+      #- name: Update App 
+      #  run: | 
+       #       sudo apt update
       - name: Logging into docker hub 
         uses: docker/login-action@v1
         with:
